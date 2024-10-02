@@ -18,8 +18,7 @@ function Navbar() {
     <nav>
       <div className="left">
         <a href="/" className="logo">
-          <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <img src="/pghostellogo.png" alt="" />
         </a>
         <a href="/">Home</a>
         <a href="/">About</a>

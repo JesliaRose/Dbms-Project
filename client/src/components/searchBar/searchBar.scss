@@ -29,6 +29,7 @@
   }
 
   form {
+    border-radius: 0px 10px 10px 10px;
     border: 1px solid #999;
     display: flex;
     justify-content: space-between;
@@ -37,11 +38,11 @@
 
     @include sm {
       flex-direction: column;
-      border: none;
     }
 
     input {
       border: none;
+      border-radius: 9px;
       padding: 0px 10px;
       width: 200px;
 
@@ -75,6 +76,7 @@
     a{
       flex: 1;
       background-color: #fece51;
+      border-radius: 0px 9px 9px 0px;
       display: flex;
       align-items: center;
       justify-content: center;

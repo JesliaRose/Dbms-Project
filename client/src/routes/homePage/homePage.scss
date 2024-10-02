@@ -28,11 +28,15 @@
       }
 
       .title {
-        font-size: 64px;
+        font-size: 56px;
 
         @include lg {
           font-size: 48px;
         }
+      }
+
+      p{
+        line-height: 22px;
       }
 
       .boxes {
@@ -71,9 +75,10 @@
     }
 
     img {
-      width: 115%;
+      width: 110%;
       position: absolute;
       right: 0;
+      margin-top: -50px;
 
       @include lg {
         width: 105%;
