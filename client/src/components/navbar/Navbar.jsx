@@ -21,9 +21,8 @@ function Navbar() {
           <img src="/pghostellogo.png" alt="" />
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <a href="/">Contact</a>
-        <a href="/">Agents</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
       </div>
       <div className="right">
         {currentUser ? (
