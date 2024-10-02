@@ -7,10 +7,20 @@ import testRoute from "./routes/test.route.js";
 import userRoute from "./routes/user.route.js";
 import chatRoute from "./routes/chat.route.js";
 import messageRoute from "./routes/message.route.js";
+import dotenv from 'dotenv';
 
+
+dotenv.config();
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+app.use(cors({
+  origin: process.env.CLIENT_URL,
+  credentials: true,   // Allow credentials (cookies, headers, etc.)
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",   // Allowed HTTP methods
+  allowedHeaders: "Origin, X-Requested-With, Content-Type, Accept, Authorization",   // Allowed headers
+}));
+
+//app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
