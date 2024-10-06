@@ -2,11 +2,11 @@ import { useState } from "react";
 import "./searchBar.scss";
 import { Link } from "react-router-dom";
 
-const types = ["pg", "rent"];
+const types = ["pg", "hostel"];
 
 function SearchBar() {
   const [query, setQuery] = useState({
-    type: "buy",
+    type: "pg",
     city: "",
     minPrice: 0,
     maxPrice: 0,

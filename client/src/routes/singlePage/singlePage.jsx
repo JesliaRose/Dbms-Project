@@ -40,7 +40,7 @@ function SinglePage() {
                   <img src="/pin.png" alt="" />
                   <span>{post.address}</span>
                 </div>
-                <div className="price">$ {post.price}</div>
+                <div className="price">₹ {post.price}</div>
               </div>
               <div className="user">
                 <img src={post.user.avatar} alt="" />
@@ -110,7 +110,7 @@ function SinglePage() {
             <div className="feature">
               <img src="/school.png" alt="" />
               <div className="featureText">
-                <span>School</span>
+                <span>College</span>
                 <p>
                   {post.postDetail.school > 999
                     ? post.postDetail.school / 1000 + "km"
@@ -120,14 +120,14 @@ function SinglePage() {
               </div>
             </div>
             <div className="feature">
-              <img src="/pet.png" alt="" />
+              <img src="/bus-stop.png" alt="" />
               <div className="featureText">
                 <span>Bus Stop</span>
                 <p>{post.postDetail.bus}m away</p>
               </div>
             </div>
             <div className="feature">
-              <img src="/fee.png" alt="" />
+              <img src="/fork.png" alt="" />
               <div className="featureText">
                 <span>Restaurant</span>
                 <p>{post.postDetail.restaurant}m away</p>

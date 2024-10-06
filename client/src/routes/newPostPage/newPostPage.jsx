@@ -96,19 +96,18 @@ function NewPostPage() {
             <div className="item">
               <label htmlFor="type">Type</label>
               <select name="type">
-                <option value="rent" defaultChecked>
-                  Rent
+                <option value="pg" defaultChecked>
+                  PG
                 </option>
-                <option value="buy">Buy</option>
+                <option value="hostel">Hostel</option>
               </select>
             </div>
             <div className="item">
               <label htmlFor="type">Property</label>
               <select name="property">
-                <option value="apartment">Apartment</option>
-                <option value="house">House</option>
-                <option value="condo">Condo</option>
-                <option value="land">Land</option>
+                <option value="women">Women</option>
+                <option value="men">Men</option>
+                <option value="mixed">Mixed</option>
               </select>
             </div>
 
@@ -141,7 +140,7 @@ function NewPostPage() {
               <input min={0} id="size" name="size" type="number" />
             </div>
             <div className="item">
-              <label htmlFor="school">School</label>
+              <label htmlFor="school">College</label>
               <input min={0} id="school" name="school" type="number" />
             </div>
             <div className="item">

@@ -52,8 +52,8 @@ function Filter() {
             defaultValue={query.type}
           >
             <option value="">any</option>
-            <option value="buy">Buy</option>
-            <option value="rent">Rent</option>
+            <option value="pg">PG</option>
+            <option value="hostel">Hostel</option>
           </select>
         </div>
         <div className="item">
@@ -65,10 +65,9 @@ function Filter() {
             defaultValue={query.property}
           >
             <option value="">any</option>
-            <option value="apartment">Apartment</option>
-            <option value="house">House</option>
-            <option value="condo">Condo</option>
-            <option value="land">Land</option>
+            <option value="women">Women</option>
+            <option value="men">Men</option>
+            <option value="mixed">Mixed</option>
           </select>
         </div>
         <div className="item">
